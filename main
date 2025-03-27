@@ -1,0 +1,15 @@
+import re
+import sympy
+alpha = int(float(input('firt number: ')))
+betta = int(float(input('second number: ')))
+kappa = int(float(input('third number: ')))
+delta = int(float(input('fourth number: ')))
+alg_x = sympy.symbols("x")
+alg_y_alpha = sympy.symbols("y")
+alg_y_betta = sympy.symbols("y")
+
+answer_alpha = (alpha ** alg_x) + betta
+answer_betta = (kappa ** alg_x) - delta
+
+print(answer_alpha)
+print(answer_betta)
